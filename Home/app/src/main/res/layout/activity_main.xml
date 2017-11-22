@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sunnysingh.home.MainActivity">
+
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="56dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorAccent"
+        android:elevation="7dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/device"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="20dp"
+            android:clickable="true"
+            android:text="Master Bedroom"
+            android:layout_marginBottom="18dp"
+            android:layout_alignBottom="@+id/imageView4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/masterbedroom"
+            android:id="@+id/imageView4"
+            android:layout_marginLeft="132dp"
+            android:layout_marginStart="132dp"
+            android:layout_marginTop="9dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/device"
+            android:layout_alignStart="@+id/device" />
+
+    </RelativeLayout>
+    <RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:layout_marginTop="200dp"
+    android:layout_below="@+id/textView4"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:background="@color/colorAccent"
+    android:elevation="7dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/device2"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="20dp"
+        android:text="Kitchen"
+        android:layout_marginBottom="18dp"
+        android:layout_alignBottom="@+id/imageView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/microwave"
+        android:id="@+id/imageView6"
+        android:layout_marginLeft="132dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="9dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/device2"
+        android:layout_alignStart="@+id/device2" />
+
+</RelativeLayout>
+    <TextView
+        android:text="Connect and Play  "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/remotecontrol"
+        android:id="@+id/imageView2"
+        android:rotationX="5.00"
+        android:rotation="20"
+        android:layout_marginRight="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
